@@ -34,6 +34,11 @@ body {
   src: url("/fonts/zentry-regular.woff2") format("woff2");
 }
 
+.special-font b {
+  font-family: "zentry";
+  font-feature-settings: "ss01" on;
+}
+
 /* Tailwind CSS v4.1 Theme Variables */
 @theme {
   /* Blue Colors */
@@ -52,4 +57,16 @@ body {
 
   /* Background Colors */
   --color-background: var(--color-blue-50);
+}
+
+@utility mask-clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+@utility absolute-center {
+  @applyabsolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%];
+}
+
+@utility hero-heading {
+  @apply uppercase font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
 }
