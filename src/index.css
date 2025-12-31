@@ -1,6 +1,6 @@
-@import url('https://fonts.cdnfonts.com/css/general-sans') layer(base);
+@import url("https://fonts.cdnfonts.com/css/general-sans") layer(base);
 
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --font-zentry: zentry, sans-serif;
@@ -65,8 +65,8 @@
 
 @utility special-font {
   & b {
-    font-family: 'Zentry';
-    font-feature-settings: 'ss01' on;
+    font-family: "Zentry";
+    font-feature-settings: "ss01" on;
   }
 }
 
@@ -107,7 +107,7 @@
 
 @utility story-img-container {
   @apply relative md:h-dvh h-[90vh] w-full;
-  filter: url('#flt_tag');
+  filter: url("#flt_tag");
 }
 
 @utility story-img-mask {
@@ -149,7 +149,7 @@
     width: 100dvw;
     overflow-x: hidden;
     background-color: #dfdff0;
-    font-family: 'General Sans', sans-serif;
+    font-family: "General Sans", sans-serif;
   }
 }
 
