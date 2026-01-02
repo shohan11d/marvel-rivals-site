@@ -6,7 +6,7 @@ function Hero() {
     <div className="relative h-dvh overflow-hidden">
       <div className=" h-dvh w-full flex flex-col justify-between container mx-auto size-full relative z-10">
         <div className="py-8 mt-14">
-          <h1 className="uppercase hero-heading text-white">Redefine</h1>
+          <h1 className="uppercase hero-heading text-white">Marvel </h1>
           <p className="text-white mb-4">
             Enter the Metagame Layer <br /> Unleash the Play Economy
           </p>
@@ -19,9 +19,7 @@ function Hero() {
         </div>
 
         <div className="flex items-center justify-end">
-          <h1 className="hero-heading text-white">
-            Ga<b>m</b>ing
-          </h1>
+          <h1 className="hero-heading text-white">Rivals</h1>
         </div>
       </div>
       <video
