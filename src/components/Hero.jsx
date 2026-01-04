@@ -5,9 +5,13 @@ function Hero() {
   return (
     <div className="relative px-4 h-dvh overflow-hidden">
       <div className=" h-dvh w-full flex flex-col justify-between container mx-auto size-full relative z-10">
-        <div className="py-8 mt-14">
-          <img src="./img/rivals-logo.png"  className="w-40 md:w-130 mb-4" alt="" />
-          <p className="text-white text-xs md:text-2xl  uppercase ">
+        <div className="py-8 mt-16 md:mt-24">
+          <img
+            src="./img/rivals-logo.png"
+            className="w-40 md:w-100 mb-4"
+            alt=""
+          />
+          <p className="text-white text-xs md:text-2xl  uppercase text-blue-50">
             The Super hero team-based pvp shooter
           </p>
           <p className="text-[#FBDB2B] text-xs md:text-2xl font-bold uppercase mb-4">
@@ -16,8 +20,9 @@ function Hero() {
           <Button
             id="watch-trailer"
             title="Watch Trailer"
+            link="https://www.youtube.com/watch?v=-b0veB7q9P4"
             leftIcon={<TiLocationArrow />}
-            containerClass="bg-yellow-300 flex-center gap-1 self-start"
+            containerClass="bg-[#FBDB2B] text-black flex-center gap-1 self-start"
           />
         </div>
 
