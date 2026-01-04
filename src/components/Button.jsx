@@ -1,15 +1,13 @@
-function Button({ title, id, rightIcon, leftIcon, containerClass }) {
+function Button({ id, title, leftIcon, containerClass }) {
   return (
-    <button id={id} className={`group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black ${containerClass}`}>
-      {leftIcon}
-      <span className="relative infine-flex overflow-hidden font-general text-xs  uppercase">
-        <div>
-          {title}
-        </div>
-      </span>
-      {rightIcon}
+    <button
+      className={`${containerClass} px-5 py-2 font-general uppercase text-[12px] rounded-full flex gap-2 items-center justify-center cursor-pointer`}
+    >
+      <span className="text-lg">{leftIcon}</span>
+      {title}
     </button>
-  )
+  );
 }
 
-export default Button
+export default Button;
+ 
