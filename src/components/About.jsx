@@ -29,12 +29,10 @@ const About = () => {
   return (
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
-        <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
-        </p>
+        <p className="font-general text-sm uppercase md:text-[10px]">Battle as your favorite superheroes</p>
 
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+          title="Create new ways to play with all new and Iconic abilities"
           containerClass="mt-5 text-black! text-center"
         />
 
@@ -50,7 +48,7 @@ const About = () => {
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
           <img
-            src="img/about.webp"
+            src="img/about.jpg"
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
           />
