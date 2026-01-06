@@ -54,8 +54,8 @@ function Hero() {
               containerClass="bg-[#FBDB2B] text-black flex-center gap-1 self-start"
             />
           </div>
-          <h1 className="absolute right-4 md:right-0 bottom-0 z-40 text-white hero-heading  mb-8">
-            Play Now
+          <h1 className="absolute right-4 md:right-0 bottom-0 z-40 text-white hero-heading special-font mb-8">
+            Pl<b>a</b>y <b></b> <b>N</b>ow
           </h1>
         </div>
         <video
