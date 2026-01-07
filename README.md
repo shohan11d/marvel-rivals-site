@@ -1,16 +1,39 @@
-# React + Vite
+# Marvel Rivals – Character Showcase Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated character showcase website inspired by **Marvel Rivals**, built with **React**, **Tailwind CSS**, and **GSAP**.  
+The project focuses on smooth UI animations, clean component architecture, and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 https://shohan11d.github.io/marvel-rivals-site  
+*(Update if deployed elsewhere)*
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – Component-based UI development
+- **Tailwind CSS** – Utility-first styling
+- **GSAP** – Advanced animations and scroll-based effects
+- **clsx** – Conditional class name management
+- **Vite** – Fast development and optimized builds
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Smooth entrance and scroll-triggered animations using GSAP
+- Fully responsive layout across devices
+- Clean, modern UI inspired by game landing pages
+- Reusable and maintainable React components
+- Organized Tailwind styles with conditional class handling
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots here)*
+
+```md
+![Homepage](./screenshots/home.png)
