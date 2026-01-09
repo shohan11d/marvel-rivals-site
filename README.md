@@ -26,7 +26,6 @@ The project focuses on smooth UI animations, clean component architecture, and r
 - Smooth entrance and scroll-triggered animations using GSAP
 - Fully responsive layout across devices
 - Clean, modern UI inspired by game landing pages
-- Reusable and maintainable React components
 - Organized Tailwind styles with conditional class handling
 
 ---
